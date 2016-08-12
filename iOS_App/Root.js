@@ -31,10 +31,9 @@ const store = createStoreWithMW(myApp)
 
 export default class Root extends Component {
   render () {
-    console.log(1)
     return (
       <Provider store={store}>
-        <App/>
+        <App />
       </Provider>
     )
   }
